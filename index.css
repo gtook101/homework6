@@ -1,0 +1,45 @@
+h1 {
+    display: center;
+    font-size: 60px;
+    padding: 10px 70px 50px 1000px;
+    color: white;
+    background-color: blue;
+}
+
+h2 {
+    font-size: 30px;
+    color: white;
+}
+.row {
+    display: flex;
+}
+
+
+.column {
+    width: 25%;
+    float: left;
+    padding: 250px;
+    border: 1px solid red;
+    text-align: top;
+}
+
+
+.column2 {
+    width: 75%;
+    height: 1000px;
+    float: right;
+    padding: 10px 600px 10px 10px;
+    border: 1px solid red;
+}
+
+.card-body {
+    min-height: 400px;
+}
+
+.card-body2 {
+    min-height: 600px;
+}
+
+p.big {
+    line-height: 10px;
+}

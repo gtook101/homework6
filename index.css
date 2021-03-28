@@ -7,8 +7,9 @@ h1 {
 }
 
 h2 {
-    font-size: 30px;
+    font-size: 50px;
     color: white;
+    margin: 20;
 }
 .row {
     display: flex;
@@ -22,7 +23,6 @@ h2 {
     border: 1px solid red;
     text-align: top;
 }
-
 
 .column2 {
     width: 75%;
@@ -38,6 +38,28 @@ h2 {
 
 .card-body2 {
     min-height: 600px;
+}
+
+#temperature {
+    color: blue;
+    font-size: 30px;
+    margin: 20;
+}
+
+#humidity {
+    color: blue;
+    font-size: 30px;
+    margin: 20;
+}
+
+#wind-speed {
+    color: blue;
+    font-size: 30px;
+    margin: 20;
+}
+
+p {
+    font-size: 20px;
 }
 
 p.big {
